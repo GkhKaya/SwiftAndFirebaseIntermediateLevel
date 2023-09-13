@@ -15,7 +15,9 @@ struct SwiftAndFirebaseIntermediateLevelApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                RootView()
+            }
         }
     }
 }
